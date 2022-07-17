@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "ESP32 Automatic Watering"
 Date ""
 Rev "1.0"
@@ -697,217 +697,6 @@ F 3 "" H 7150 3350 50  0001 C CNN
 	1    7150 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 750  2750 750 
-Connection ~ 4150 1150
-Wire Wire Line
-	4150 1150 4150 1050
-$Comp
-L power:+3V3 #PWR0133
-U 1 1 60A60189
-P 4150 1050
-F 0 "#PWR0133" H 4150 900 50  0001 C CNN
-F 1 "+3V3" H 4100 1250 50  0000 C CNN
-F 2 "" H 4150 1050 50  0001 C CNN
-F 3 "" H 4150 1050 50  0001 C CNN
-	1    4150 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 60A540E4
-P 4150 2000
-F 0 "#PWR0134" H 4150 1750 50  0001 C CNN
-F 1 "GND" H 4155 1827 50  0000 C CNN
-F 2 "" H 4150 2000 50  0001 C CNN
-F 3 "" H 4150 2000 50  0001 C CNN
-	1    4150 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 1150 4150 1200
-$Comp
-L Device:C_Small C4
-U 1 1 60A42089
-P 4150 1300
-F 0 "C4" H 4250 1350 50  0000 L CNN
-F 1 "22u" H 4250 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4150 1300 50  0001 C CNN
-F 3 "~" H 4150 1300 50  0001 C CNN
-	1    4150 1300
-	1    0    0    -1  
-$EndComp
-Connection ~ 3700 1150
-Wire Wire Line
-	3700 1350 3700 1150
-Wire Wire Line
-	3250 1350 3700 1350
-Wire Wire Line
-	3650 1150 3700 1150
-Wire Wire Line
-	3250 1150 3450 1150
-$Comp
-L Device:R_Small R2
-U 1 1 60A20EFF
-P 3550 1450
-F 0 "R2" V 3450 1550 50  0000 C CNN
-F 1 "100k" V 3450 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3550 1450 50  0001 C CNN
-F 3 "~" H 3550 1450 50  0001 C CNN
-	1    3550 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L_Small L1
-U 1 1 60A1891C
-P 3550 1150
-F 0 "L1" V 3735 1150 50  0000 C CNN
-F 1 "2.2u" V 3644 1150 50  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 3550 1150 50  0001 C CNN
-F 3 "~" H 3550 1150 50  0001 C CNN
-	1    3550 1150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1800 2000 2050 2000
-Connection ~ 1800 2000
-Wire Wire Line
-	1800 1550 1800 2000
-Connection ~ 2050 2000
-Wire Wire Line
-	1500 1550 1500 2000
-Wire Wire Line
-	1500 2000 1800 2000
-Wire Wire Line
-	1500 1150 1800 1150
-Connection ~ 1500 1150
-Wire Wire Line
-	1350 1150 1500 1150
-Wire Wire Line
-	1800 1150 2450 1150
-Connection ~ 1800 1150
-Connection ~ 2300 2000
-Wire Wire Line
-	2050 1250 2250 1250
-Wire Wire Line
-	2050 2000 2300 2000
-Wire Wire Line
-	2050 1250 2050 2000
-Wire Wire Line
-	1500 1150 1500 1350
-Wire Wire Line
-	1800 1150 1800 1350
-$Comp
-L Device:C_Small C7
-U 1 1 609B184B
-P 1800 1450
-F 0 "C7" H 1650 1500 50  0000 L CNN
-F 1 "0.1u" H 1600 1400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1800 1450 50  0001 C CNN
-F 3 "~" H 1800 1450 50  0001 C CNN
-	1    1800 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C6
-U 1 1 609B12D1
-P 1500 1450
-F 0 "C6" H 1350 1500 50  0000 L CNN
-F 1 "10u" H 1300 1400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 1450 50  0001 C CNN
-F 3 "~" H 1500 1450 50  0001 C CNN
-	1    1500 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 6099C193
-P 2350 1250
-F 0 "C3" V 2300 1100 50  0000 L CNN
-F 1 "3.3nF" V 2400 1000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2350 1250 50  0001 C CNN
-F 3 "~" H 2350 1250 50  0001 C CNN
-	1    2350 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2300 1450 2300 2000
-Connection ~ 2300 1450
-Wire Wire Line
-	2450 1450 2300 1450
-Connection ~ 2750 2000
-Wire Wire Line
-	2300 1350 2300 1450
-Wire Wire Line
-	2300 2000 2750 2000
-Wire Wire Line
-	2450 1350 2300 1350
-Wire Wire Line
-	2850 1850 2850 2000
-Connection ~ 2950 2000
-Wire Wire Line
-	3250 2000 2950 2000
-Wire Wire Line
-	3250 1550 3250 2000
-Connection ~ 2850 2000
-Wire Wire Line
-	2750 2000 2850 2000
-Wire Wire Line
-	2750 1850 2750 2000
-Wire Wire Line
-	2850 2000 2850 2050
-Wire Wire Line
-	2950 2000 2850 2000
-Wire Wire Line
-	2950 1850 2950 2000
-$Comp
-L power:GND #PWR0135
-U 1 1 6097E46A
-P 2850 2050
-F 0 "#PWR0135" H 2850 1800 50  0001 C CNN
-F 1 "GND" H 2855 1877 50  0000 C CNN
-F 2 "" H 2850 2050 50  0001 C CNN
-F 3 "" H 2850 2050 50  0001 C CNN
-	1    2850 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 750  2750 850 
-$Comp
-L Device:Fuse F1
-U 1 1 608C5F4C
-P 1200 1150
-F 0 "F1" V 1100 1150 50  0000 C CNN
-F 1 "3A" V 1300 1150 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V 1130 1150 50  0001 C CNN
-F 3 "~" H 1200 1150 50  0001 C CNN
-	1    1200 1150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	950  1250 950  1300
-$Comp
-L power:GND #PWR0136
-U 1 1 60862E0A
-P 950 1300
-F 0 "#PWR0136" H 950 1050 50  0001 C CNN
-F 1 "GND" H 955 1127 50  0000 C CNN
-F 2 "" H 950 1300 50  0001 C CNN
-F 3 "" H 950 1300 50  0001 C CNN
-	1    950  1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 6085FE41
-P 600 1150
-F 0 "J1" H 700 1400 50  0000 C CNN
-F 1 "Power" H 700 1300 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 600 1150 50  0001 C CNN
-F 3 "~" H 600 1150 50  0001 C CNN
-	1    600  1150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0137
 U 1 1 60C9FD9F
@@ -923,22 +712,6 @@ Wire Wire Line
 	5300 1100 5500 1100
 Wire Wire Line
 	5500 1100 5500 1050
-Wire Wire Line
-	3450 1450 3250 1450
-Wire Wire Line
-	3650 1450 3800 1450
-Wire Wire Line
-	3800 1150 3800 1450
-Wire Wire Line
-	3700 1150 3800 1150
-Connection ~ 3800 1150
-Wire Wire Line
-	3800 1150 4150 1150
-Wire Wire Line
-	2750 750  1500 750 
-Wire Wire Line
-	1500 750  1500 1150
-Connection ~ 2750 750 
 $Comp
 L Device:C_Small C2
 U 1 1 605C912B
@@ -977,7 +750,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3900 3150 3850
 Text Notes 2150 2400 0    50   ~ 0
-DC-DC Converter (3 to 17v - 3v3)\n
+DC-DC Converter (5 to 40v - 3v3)\n
 Text Notes 4550 5800 0    50   ~ 0
 Programming Switches\n
 Wire Wire Line
@@ -1258,8 +1031,6 @@ Wire Wire Line
 	1550 7050 1550 7000
 Wire Wire Line
 	1550 7300 1550 7250
-Wire Wire Line
-	4150 1400 4150 2000
 $Comp
 L power:GND #PWR0150
 U 1 1 61631266
@@ -1436,19 +1207,6 @@ F 3 "~" H 3350 6450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Regulator_Switching:TPS62132 U2
-U 1 1 61C3840D
-P 2850 1350
-F 0 "U2" H 2500 1800 50  0000 C CNN
-F 1 "TPS62132" H 3200 1800 50  0000 C CNN
-F 2 "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias" H 3000 900 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps62130.pdf" H 2850 1350 50  0001 C CNN
-	1    2850 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 850  2950 750 
-$Comp
 L Power_Protection:USBLC6-2SC6 U3
 U 1 1 61C5286B
 P 6600 1350
@@ -1547,10 +1305,6 @@ F 3 "~" H 2400 7000 50  0001 C CNN
 	1    2400 7000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1050 1150 800  1150
-Wire Wire Line
-	800  1250 950  1250
 Text Notes 5200 2400 0    50   ~ 0
 USB Connector and ESD Protection\n
 Wire Notes Line
@@ -1610,4 +1364,12 @@ Wire Wire Line
 	3550 4100 3550 4150
 Wire Wire Line
 	3550 3900 3550 3850
+$Sheet
+S 2350 1100 900  500 
+U 62D8A179
+F0 "power" 50
+F1 "power.sch" 50
+F2 "VOUT" I R 3250 1300 50 
+F3 "VIN" I L 2350 1300 50 
+$EndSheet
 $EndSCHEMATC

@@ -750,7 +750,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3900 3150 3850
 Text Notes 2150 2400 0    50   ~ 0
-DC-DC Converter (3 to 17v - 3v3)\n
+DC-DC Converter (5 to 40v - 3v3)\n
 Text Notes 4550 5800 0    50   ~ 0
 Programming Switches\n
 Wire Wire Line
@@ -1365,11 +1365,54 @@ Wire Wire Line
 Wire Wire Line
 	3550 3900 3550 3850
 $Sheet
-S 1500 1100 900  500 
+S 2350 1100 900  500 
 U 62D8A179
 F0 "power" 50
 F1 "power.sch" 50
-F2 "VOUT" I R 2400 1300 50 
-F3 "VIN" I L 1500 1300 50 
+F2 "VOUT" I R 3250 1300 50 
+F3 "VIN" I L 2350 1300 50 
 $EndSheet
+$Comp
+L power:+3V3 #PWR0118
+U 1 1 62E5CC95
+P 3600 1150
+F 0 "#PWR0118" H 3600 1000 50  0001 C CNN
+F 1 "+3V3" H 3550 1350 50  0000 C CNN
+F 2 "" H 3600 1150 50  0001 C CNN
+F 3 "" H 3600 1150 50  0001 C CNN
+	1    3600 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1300 3600 1150
+Wire Wire Line
+	3250 1300 3600 1300
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 62E6B4A5
+P 1700 1300
+F 0 "J1" H 1800 1550 50  0000 C CNN
+F 1 "Power" H 1800 1450 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1700 1300 50  0001 C CNN
+F 3 "~" H 1700 1300 50  0001 C CNN
+	1    1700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1300 2350 1300
+$Comp
+L power:GND #PWR0119
+U 1 1 62E73873
+P 2050 1500
+F 0 "#PWR0119" H 2050 1250 50  0001 C CNN
+F 1 "GND" H 2055 1327 50  0000 C CNN
+F 2 "" H 2050 1500 50  0001 C CNN
+F 3 "" H 2050 1500 50  0001 C CNN
+	1    2050 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1400 1900 1400
+Wire Wire Line
+	2050 1400 2050 1500
 $EndSCHEMATC
