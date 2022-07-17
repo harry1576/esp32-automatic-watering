@@ -1,0 +1,119 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 632D4727
+P 5850 3850
+AR Path="/632D4727" Ref="#PWR?"  Part="1" 
+AR Path="/632C9D26/632D4727" Ref="#PWR0105"  Part="1" 
+AR Path="/632DB1FE/632D4727" Ref="#PWR0123"  Part="1" 
+AR Path="/632DC82B/632D4727" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 5850 3600 50  0001 C CNN
+F 1 "GND" H 5855 3677 50  0000 C CNN
+F 2 "" H 5850 3850 50  0001 C CNN
+F 3 "" H 5850 3850 50  0001 C CNN
+	1    5850 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 632D472D
+P 5400 3550
+AR Path="/632D472D" Ref="R?"  Part="1" 
+AR Path="/632C9D26/632D472D" Ref="R10"  Part="1" 
+AR Path="/632DB1FE/632D472D" Ref="R14"  Part="1" 
+AR Path="/632DC82B/632D472D" Ref="R15"  Part="1" 
+F 0 "R15" V 5300 3500 50  0000 L CNN
+F 1 "10k" V 5500 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5400 3550 50  0001 C CNN
+F 3 "~" H 5400 3550 50  0001 C CNN
+F 4 "C25197" H 5400 3550 50  0001 C CNN "LCSC PART #"
+	1    5400 3550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5300 3550 5100 3550
+$Comp
+L Device:C_Small C?
+U 1 1 632D4734
+P 5750 3700
+AR Path="/632D4734" Ref="C?"  Part="1" 
+AR Path="/632C9D26/632D4734" Ref="C8"  Part="1" 
+AR Path="/632DB1FE/632D4734" Ref="C9"  Part="1" 
+AR Path="/632DC82B/632D4734" Ref="C10"  Part="1" 
+F 0 "C10" H 5800 3750 50  0000 L CNN
+F 1 "100n" H 5750 3650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5750 3700 50  0001 C CNN
+F 3 "~" H 5750 3700 50  0001 C CNN
+F 4 "C30926" H 5750 3700 50  0001 C CNN "LCSC PART #"
+	1    5750 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3650 5950 3850
+Wire Wire Line
+	5950 3650 6100 3650
+Wire Wire Line
+	5750 3850 5750 3800
+Wire Wire Line
+	5500 3550 5750 3550
+Connection ~ 5850 3850
+Wire Wire Line
+	5850 3850 5950 3850
+Wire Wire Line
+	5750 3850 5850 3850
+Wire Wire Line
+	5750 3600 5750 3550
+Connection ~ 5750 3550
+Wire Wire Line
+	5750 3550 6100 3550
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 632D4744
+P 6300 3550
+AR Path="/632D4744" Ref="J?"  Part="1" 
+AR Path="/632C9D26/632D4744" Ref="J4"  Part="1" 
+AR Path="/632DB1FE/632D4744" Ref="J8"  Part="1" 
+AR Path="/632DC82B/632D4744" Ref="J9"  Part="1" 
+F 0 "J9" H 6272 3574 50  0000 R CNN
+F 1 "INPUT" H 6272 3483 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6300 3550 50  0001 C CNN
+F 3 "~" H 6300 3550 50  0001 C CNN
+	1    6300 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 632D474A
+P 6000 3400
+AR Path="/632D474A" Ref="#PWR?"  Part="1" 
+AR Path="/632C9D26/632D474A" Ref="#PWR0122"  Part="1" 
+AR Path="/632DB1FE/632D474A" Ref="#PWR0124"  Part="1" 
+AR Path="/632DC82B/632D474A" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 6000 3250 50  0001 C CNN
+F 1 "+3V3" H 6015 3573 50  0000 C CNN
+F 2 "" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3450 6000 3450
+Wire Wire Line
+	6000 3450 6000 3400
+Text HLabel 5100 3550 0    50   Input ~ 0
+OUTPUT
+$EndSCHEMATC
