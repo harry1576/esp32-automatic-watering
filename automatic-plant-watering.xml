@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/harry/Projects/esp32-automatic-watering/automatic-plant-watering.sch</source>
-    <date>Sun 17 Jul 2022 21:43:51</date>
+    <date>Tue 19 Jul 2022 11:43:52</date>
     <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -89,6 +89,7 @@
       <footprint>RF_Module:ESP32-WROOM-32</footprint>
       <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</datasheet>
       <fields>
+        <field name="LCSC">C82899</field>
         <field name="LCSC PART #">C82899</field>
       </fields>
       <libsource lib="RF_Module" part="ESP32-WROOM-32D" description="RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
@@ -100,6 +101,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -111,6 +113,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C96446</field>
         <field name="LCSC PART #">C96446</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -122,6 +125,7 @@
       <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C843627</field>
         <field name="LCSC PART #">C843627</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
@@ -133,6 +137,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC PART #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -144,6 +149,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC PART #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -155,6 +161,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C4190</field>
         <field name="LCSC PART #">C4190</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -166,6 +173,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C4190</field>
         <field name="LCSC PART #">C4190</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -177,6 +185,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C30926</field>
         <field name="LCSC PART #">C30926</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -188,6 +197,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -199,6 +209,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C30926</field>
         <field name="LCSC PART #">C30926</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -218,6 +229,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C23018</field>
         <field name="LCSC PART #">C23018</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -253,6 +265,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C96446</field>
         <field name="LCSC PART #">C96446</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -264,6 +277,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -275,6 +289,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C96446</field>
         <field name="LCSC PART #">C96446</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -286,6 +301,7 @@
       <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C843627</field>
         <field name="LCSC PART #">C843627</field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
@@ -305,6 +321,7 @@
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C207036</field>
         <field name="LCSC PART #">C207036</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
@@ -316,6 +333,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
       <fields>
+        <field name="LCSC">C2997136</field>
         <field name="LCSC PART #">C2997136</field>
       </fields>
       <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
@@ -327,6 +345,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -338,6 +357,7 @@
       <footprint>Diode_SMD:D_SOD-128</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C253489</field>
         <field name="LCSC PART #">C253489</field>
       </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
@@ -357,6 +377,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC PART #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -368,6 +389,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C4190</field>
         <field name="LCSC PART #">C4190</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -379,6 +401,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C96446</field>
         <field name="LCSC PART #">C96446</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -390,6 +413,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C57112</field>
         <field name="LCSC PART #">C57112</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -401,6 +425,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -412,6 +437,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C23189</field>
         <field name="LCSC PART #">C23189</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -423,6 +449,7 @@
       <footprint>Diode_SMD:D_SMA</footprint>
       <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
       <fields>
+        <field name="LCSC">C64982</field>
         <field name="LCSC PART #">C64982</field>
       </fields>
       <libsource lib="Diode" part="B340" description="40V 3A Schottky Barrier Rectifier Diode, SMC"/>
@@ -434,6 +461,7 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C32375</field>
         <field name="LCSC PART #">C32375</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -445,6 +473,7 @@
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C16133</field>
         <field name="LCSC PART #">C16133</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -456,6 +485,7 @@
       <footprint>Package_SO:TI_SO-PowerPAD-8_ThermalVias</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tps5430.pdf</datasheet>
       <fields>
+        <field name="LCSC">C9864</field>
         <field name="LCSC PART #">C9864</field>
       </fields>
       <libsource lib="Regulator_Switching" part="TPS5430DDA" description="3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8"/>
@@ -475,6 +505,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -486,6 +517,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
       <fields>
+        <field name="LCSC">C2997136</field>
         <field name="LCSC PART #">C2997136</field>
       </fields>
       <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
@@ -497,6 +529,7 @@
       <footprint>Diode_SMD:D_SMA</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C64982</field>
         <field name="LCSC PART #">C64982</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
@@ -508,6 +541,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -519,6 +553,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C30926</field>
         <field name="LCSC PART #">C30926</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -538,6 +573,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -549,6 +585,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C30926</field>
         <field name="LCSC PART #">C30926</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -568,6 +605,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25197</field>
         <field name="LCSC PART #">C25197</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -579,6 +617,7 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C30926</field>
         <field name="LCSC PART #">C30926</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -979,33 +1018,33 @@
   </libraries>
   <nets>
     <net code="1" name="+3V3">
-      <node ref="J4" pin="1"/>
+      <node ref="C5" pin="1"/>
       <node ref="R1" pin="1"/>
       <node ref="C1" pin="1"/>
-      <node ref="R12" pin="1"/>
+      <node ref="J4" pin="1"/>
       <node ref="Q3" pin="1"/>
-      <node ref="R9" pin="1"/>
+      <node ref="D6" pin="1"/>
       <node ref="C6" pin="1"/>
       <node ref="L1" pin="2"/>
-      <node ref="D6" pin="2"/>
-      <node ref="C5" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R12" pin="1"/>
       <node ref="J9" pin="1"/>
       <node ref="U1" pin="2"/>
-      <node ref="R3" pin="1"/>
       <node ref="C2" pin="1"/>
-      <node ref="U4" pin="1"/>
       <node ref="J8" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R9" pin="1"/>
     </net>
     <net code="2" name="GND">
-      <node ref="R7" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U1" pin="15"/>
-      <node ref="U1" pin="39"/>
-      <node ref="R6" pin="1"/>
-      <node ref="C5" pin="2"/>
       <node ref="U1" pin="1"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R6" pin="1"/>
       <node ref="U1" pin="38"/>
       <node ref="D5" pin="2"/>
       <node ref="J4" pin="3"/>
@@ -1021,21 +1060,21 @@
       <node ref="D4" pin="2"/>
       <node ref="R13" pin="2"/>
       <node ref="J3" pin="1"/>
-      <node ref="J2" pin="3"/>
-      <node ref="J1" pin="1"/>
       <node ref="SW2" pin="2"/>
-      <node ref="C7" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="SW1" pin="2"/>
       <node ref="R2" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="1"/>
       <node ref="U4" pin="4"/>
       <node ref="C1" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="R5" pin="1"/>
+      <node ref="C7" pin="2"/>
     </net>
     <net code="3" name="GPIO0">
-      <node ref="C7" pin="1"/>
       <node ref="SW2" pin="1"/>
-      <node ref="U1" pin="25"/>
       <node ref="R3" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="C7" pin="1"/>
     </net>
     <net code="4" name="TX_PROG">
       <node ref="J2" pin="2"/>
@@ -1045,8 +1084,8 @@
       <node ref="J2" pin="1"/>
       <node ref="U1" pin="35"/>
     </net>
-    <net code="6" name="Net-(U1-Pad28)">
-      <node ref="U1" pin="28"/>
+    <net code="6" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
     </net>
     <net code="7" name="Net-(U1-Pad21)">
       <node ref="U1" pin="21"/>
@@ -1063,124 +1102,124 @@
     <net code="11" name="Net-(U1-Pad19)">
       <node ref="U1" pin="19"/>
     </net>
-    <net code="12" name="Net-(U1-Pad27)">
-      <node ref="U1" pin="27"/>
-    </net>
-    <net code="13" name="Net-(U1-Pad36)">
-      <node ref="U1" pin="36"/>
-    </net>
-    <net code="14" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="15" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="16" name="Net-(U1-Pad11)">
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="17" name="Net-(U1-Pad23)">
-      <node ref="U1" pin="23"/>
-    </net>
-    <net code="18" name="Net-(U1-Pad31)">
-      <node ref="U1" pin="31"/>
-    </net>
-    <net code="19" name="Net-(U1-Pad26)">
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="20" name="Net-(U4-Pad3)">
+    <net code="12" name="Net-(U4-Pad3)">
       <node ref="U4" pin="3"/>
     </net>
-    <net code="21" name="MOIST3">
-      <node ref="R10" pin="1"/>
-      <node ref="U1" pin="12"/>
+    <net code="13" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
     </net>
-    <net code="22" name="Net-(U1-Pad33)">
+    <net code="14" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad33)">
       <node ref="U1" pin="33"/>
     </net>
-    <net code="23" name="Net-(D6-Pad1)">
-      <node ref="D6" pin="1"/>
+    <net code="21" name="Net-(D6-Pad2)">
       <node ref="R5" pin="2"/>
+      <node ref="D6" pin="2"/>
     </net>
-    <net code="24" name="Net-(U1-Pad9)">
+    <net code="22" name="Net-(U1-Pad9)">
       <node ref="U1" pin="9"/>
     </net>
-    <net code="25" name="Net-(U1-Pad8)">
+    <net code="23" name="Net-(U1-Pad8)">
       <node ref="U1" pin="8"/>
     </net>
-    <net code="26" name="Net-(U1-Pad37)">
+    <net code="24" name="Net-(U1-Pad37)">
       <node ref="U1" pin="37"/>
     </net>
-    <net code="27" name="Net-(F1-Pad2)">
+    <net code="25" name="Net-(F1-Pad2)">
       <node ref="F1" pin="2"/>
       <node ref="J1" pin="2"/>
     </net>
-    <net code="28" name="Net-(F1-Pad1)">
-      <node ref="Q1" pin="3"/>
+    <net code="26" name="Net-(F1-Pad1)">
       <node ref="F1" pin="1"/>
+      <node ref="Q1" pin="3"/>
     </net>
-    <net code="29" name="Net-(D3-Pad2)">
+    <net code="27" name="Net-(D3-Pad2)">
       <node ref="Q1" pin="1"/>
       <node ref="R2" pin="1"/>
       <node ref="D3" pin="2"/>
     </net>
-    <net code="30" name="12V_IN">
+    <net code="28" name="12V_IN">
+      <node ref="U2" pin="7"/>
       <node ref="Q2" pin="2"/>
       <node ref="C3" pin="1"/>
-      <node ref="Q1" pin="2"/>
       <node ref="D3" pin="1"/>
-      <node ref="U2" pin="7"/>
+      <node ref="Q1" pin="2"/>
     </net>
-    <net code="31" name="TEMP_HUMID_SEN">
-      <node ref="U1" pin="7"/>
+    <net code="29" name="TEMP_HUMID_SEN">
       <node ref="R1" pin="2"/>
+      <node ref="U1" pin="7"/>
       <node ref="U4" pin="2"/>
     </net>
-    <net code="32" name="Net-(U1-Pad5)">
+    <net code="30" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
     </net>
-    <net code="33" name="Net-(U1-Pad4)">
+    <net code="31" name="Net-(U1-Pad4)">
       <node ref="U1" pin="4"/>
     </net>
-    <net code="34" name="DRIVER">
-      <node ref="U1" pin="22"/>
+    <net code="32" name="DRIVER">
       <node ref="R4" pin="2"/>
+      <node ref="U1" pin="22"/>
     </net>
-    <net code="35" name="Net-(U1-Pad24)">
+    <net code="33" name="Net-(U1-Pad24)">
       <node ref="U1" pin="24"/>
     </net>
-    <net code="36" name="MOIST1">
-      <node ref="R15" pin="1"/>
+    <net code="34" name="MOIST1">
       <node ref="U1" pin="14"/>
+      <node ref="R15" pin="1"/>
     </net>
-    <net code="37" name="MOIST2">
-      <node ref="U1" pin="13"/>
+    <net code="35" name="MOIST2">
       <node ref="R14" pin="1"/>
+      <node ref="U1" pin="13"/>
     </net>
-    <net code="38" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="U1" pin="30"/>
+    <net code="36" name="MOIST3">
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="12"/>
     </net>
-    <net code="39" name="Net-(U1-Pad32)">
+    <net code="37" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad32)">
       <node ref="U1" pin="32"/>
     </net>
-    <net code="40" name="RESET">
+    <net code="39" name="RESET">
       <node ref="R9" pin="2"/>
+      <node ref="SW1" pin="1"/>
       <node ref="C20" pin="1"/>
       <node ref="U1" pin="3"/>
-      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="29"/>
     </net>
     <net code="41" name="LIGHT_SENSOR">
       <node ref="U1" pin="16"/>
       <node ref="Q3" pin="2"/>
       <node ref="R11" pin="1"/>
     </net>
-    <net code="42" name="Net-(D2-Pad1)">
-      <node ref="R7" pin="2"/>
-      <node ref="D2" pin="1"/>
+    <net code="42" name="Net-(D2-Pad2)">
+      <node ref="U1" pin="30"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="43" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="U1" pin="29"/>
+    <net code="43" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R7" pin="2"/>
     </net>
     <net code="44" name="Net-(D1-Pad1)">
       <node ref="R6" pin="2"/>
@@ -1191,14 +1230,14 @@
     </net>
     <net code="46" name="Net-(R12-Pad2)">
       <node ref="R12" pin="2"/>
-      <node ref="U2" pin="4"/>
       <node ref="R13" pin="1"/>
+      <node ref="U2" pin="4"/>
     </net>
     <net code="47" name="Net-(C4-Pad1)">
-      <node ref="L1" pin="1"/>
       <node ref="U2" pin="8"/>
-      <node ref="C4" pin="1"/>
+      <node ref="L1" pin="1"/>
       <node ref="D4" pin="1"/>
+      <node ref="C4" pin="1"/>
     </net>
     <net code="48" name="Net-(U2-Pad5)">
       <node ref="U2" pin="5"/>
@@ -1207,27 +1246,27 @@
       <node ref="U2" pin="3"/>
     </net>
     <net code="50" name="Net-(C4-Pad2)">
-      <node ref="U2" pin="1"/>
       <node ref="C4" pin="2"/>
+      <node ref="U2" pin="1"/>
     </net>
     <net code="51" name="Net-(Q2-Pad1)">
       <node ref="Q2" pin="1"/>
       <node ref="R4" pin="1"/>
     </net>
     <net code="52" name="Net-(D5-Pad1)">
-      <node ref="D5" pin="1"/>
-      <node ref="Q2" pin="3"/>
       <node ref="J3" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="D5" pin="1"/>
     </net>
     <net code="53" name="Net-(C8-Pad1)">
-      <node ref="J4" pin="2"/>
       <node ref="C8" pin="1"/>
       <node ref="R10" pin="2"/>
+      <node ref="J4" pin="2"/>
     </net>
     <net code="54" name="Net-(C9-Pad1)">
-      <node ref="C9" pin="1"/>
       <node ref="R14" pin="2"/>
       <node ref="J8" pin="2"/>
+      <node ref="C9" pin="1"/>
     </net>
     <net code="55" name="Net-(C10-Pad1)">
       <node ref="J9" pin="2"/>
